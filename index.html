@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SCOE NSS</title>
+  <link rel="stylesheet" href="./cssfiles/intro.css" />
+  <link rel="stylesheet" href="./cssfiles/firstpage.css" />
+  <link rel="stylesheet" href="./cssfiles/navbar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="./cssfiles/firstpage.css">
+  <link rel="stylesheet" href="./cssfiles/TeamCards.css">
+  <link rel="stylesheet" href="./cssfiles/counter.css">
+  <link rel="stylesheet" href="./cssfiles/footer.css">
+  <link rel="stylesheet" href="./cssfiles/centerH.css">
+  <link rel="stylesheet" href="./cssfiles/announcment.css">
+  <link rel="stylesheet" href="./cssfiles/slider123.css">
+  <link rel="icon" href="./images/NSS-logo.png" type="image/png">
+
+
+
+<body>
+  <div class="container">
+    <!-- Navbar -->
+    <nav>
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <a class="NssImg" href="./index.html"><img src="./images/NSS-logo.png" height="60px"></a>
+        <div class="logo">
+          <a href="#">SCOE NSS</a>
+        </div>
+        <ul class="links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./aboutus.html">About</a></li>
+          <li><a href="./gallery.html">Gallary</a></li>
+          <li><a href="./events.html">Events</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li>
+            <a href="#" class="desktop-link">More</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">More</label>
+            <ul>
+              <li><a href="./framework.html">Framework</a></li>
+              <li><a href="./volunteer.html">Volunteers data</a></li>
+              <li><a href="./achievement.html">Achievement</a></li>
+              <li><a href="./camp.html">Camp</a></li>
+              <li><a href="./registration.html">Registrations</a></li>
+            </ul>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+
+
+    <!-- <div class="container3">        
+        
+          
+      <div class="slide12 slide1 active ">
+        <span></span> 
+      </div>
+      
+      <div class="slide12 slide2">
+      </div>
+      
+      <div class="slide12 slide3">
+      </div>
+      
+      <div class="slide12 slide4">
+      </div>
+      
+      <div class="slide12 slide5">
+      </div>
+      
+      <div class="slide12 slide6">
+      </div>  
+    </div> -->
+
+
+    <ul class="slides">
+      <input type="radio" name="radio-btn" id="img-1" checked />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="./Gallery/coll/slider4.jpg" />
+        </div>
+        <div class="nav">
+          <label for="img-6" class="prev">&#x2039;</label>
+          <label for="img-2" class="next">&#x203a;</label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-btn" id="img-2" />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="./Gallery/coll/slider5.jpg" />
+        </div>
+        <div class="nav">
+          <label for="img-1" class="prev">&#x2039;</label>
+          <label for="img-3" class="next">&#x203a;</label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-btn" id="img-3" />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="./Gallery/coll/slider3.jpg" />
+        </div>
+        <div class="nav">
+          <label for="img-2" class="prev">&#x2039;</label>
+          <label for="img-4" class="next">&#x203a;</label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-btn" id="img-4" />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="./Gallery/coll/donationdrive.jpg" />
+        </div>
+        <div class="nav">
+          <label for="img-3" class="prev">&#x2039;</label>
+          <label for="img-5" class="next">&#x203a;</label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-btn" id="img-5" />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="./Gallery/coll/Sumati Balvan.jpg" />
+        </div>
+        <div class="nav">
+          <label for="img-4" class="prev">&#x2039;</label>
+          <label for="img-6" class="next">&#x203a;</label>
+        </div>
+      </li>
+
+      <input type="radio" name="radio-btn" id="img-6" />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="./Gallery/coll/blooddonation.jpg" />
+        </div>
+        <div class="nav">
+          <label for="img-5" class="prev">&#x2039;</label>
+          <label for="img-1" class="next">&#x203a;</label>
+        </div>
+      </li>
+
+      <li class="nav-dots">
+        <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+        <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+        <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+        <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+        <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+        <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+      </li>
+    </ul>
+
+
+    <div class="announcement">
+      <!-- <p><a href="">NEW VOLUNTEER LIST ANNOUNCED ||< click here to see ! ></a></p> -->
+      <a href="./pdf/Selection Final List.pdf">
+        <marquee class="rainbow">NEW VOLUNTEER LIST ANNOUNCED ||< click here to see !>
+        </marquee>
+      </a>
+      <!-- <marquee class="blink_text">NEW VOLUNTEER LIST ANNOUNCED ||< click here to see ! ></marquee> -->
+
+    </div>
+
+
+
+    <!-- About Us -->
+    <div class="About">
+      <div class="text-block">
+        <h1>About Us</h1>
+      </div>
+      <div class="text-p">
+        <p>National Service Scheme, Scoe Pune is a government-sponsored public service program conducted by the Ministry
+          of Youth and Affairs and Sports of the Government of India. Our organisation aims to in still the idea of
+          social welfare and provide service to society without bias. The volunteers of our organisation strive hard to
+          ensure that everyone in need has an opportunity to make their pleas heard and lend a helping hand to those who
+          do the same. <br> Our organisation, which comprises of enthusiastic volunteers and faculty advisors, take
+          initiatives and strive towards a better society where development not only lies in the betterment of one’s
+          self but in the development and the well being of the society as a whole.</p>
+      </div>
+      <div class="text-block">
+        <h1>NSS SONG</h1>
+      </div>
+
+      <div class="video">
+        <div class="responsive-iframe">
+          <iframe src="https://www.youtube.com/embed/n3N3-kMyWmU" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="title">
+      <h1>OUR TEAMS</h1>
+
+    </div>
+
+    <!-- Team Cards -->
+    <div class="box-container">
+      <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center" style="background-image: url('./images/technical-modified.jpeg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Technical Team</h3>
+            </div>
+          </div>
+          <div class="flip-box-back">
+            <div class="inner color-white">
+              <p>Provides technical support and guidance to organisation. This team supports the establishment and implementation of technical stuff in the team and initiates and provides technical guidance to the rest for the development of SCOE NSS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center" style="background-image: url('./images/cultural-team-modified.jpg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Cultural Team</h3>
+            </div>
+          </div>
+          <div class="flip-box-back">
+            <div class="inner color-white">
+              <p>The Cultural Team provides a sense of identity.The Culture team shapes the way volunteers interact with the organisation through different activities.Our cultural team promotes healthy competition in different competitions conducted by different organisations. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center" style="background-image: url('./images/arts.jpg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Arts Team</h3>
+            </div>
+          </div>
+          <div class="flip-box-back">
+            <div class="inner color-white">
+              <p>The Art team gives us a creative team that expresses imaginative skill. The Art team have a diverse range of volunteer activities in creating visuals, performing artifacts, and expressing the author's imaginative mind.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center" style="background-image: url('./images/documentation-modified.jpeg');">
+            <div class="inner color-white">
+              <h3 class="flip-box-header">Documentation Team</h3>
+            </div>
+          </div>
+          <div class="flip-box-back">
+            <div class="inner color-white">
+              <p>Our Documentation team is responsible for the writing, distribution, collection,
+                storage, and maintenance of the documentation material of SCOE NSS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-item">
+        <div class="flip-box">
+          <div class="flip-box-front text-center" style="background-image: url('./images/finance-modified.jpeg');"">
+                  <div class=" inner color-white">
+            <h3 class="flip-box-header">Finance Team</h3>
+          </div>
+        </div>
+        <div class="flip-box-back">
+          <div class="inner color-white">
+            <p>A finance team manages the money in our organisation.The Finance department plans and manages unit money, making sure our unit can access money in sustainable ways. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-item">
+      <div class="flip-box">
+        <div class="flip-box-front text-center" style="background-image: url('./images/goods\ management-modified.jpg'); border: 1px solid black;">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Goods Management Team</h3>
+          </div>
+        </div>
+        <div class="flip-box-back">
+          <div class="inner color-white">
+            <p>The Goods management team are responsible for organising the storage of our unit goods.They oversee team performance, expediting the receiving and shipping of goods, and ensuring efficient, organized storage.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-item">
+      <div class="flip-box">
+        <div class="flip-box-front text-center" style="background-image: url('./images/socialmedia-modified.jpeg')">
+                  <div class=" inner color-white">
+          <h3 class="flip-box-header">Social Media Team</h3>
+        </div>
+      </div>
+      <div class="flip-box-back">
+        <div class="inner color-white">
+          <p>Our Social media team personify SCOE NSS digitally. Establishes our online reputation by building posters and different stuff. Manages our social media handles.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+
+
+
+
+  <div class="title">
+    <h1>OUR REACH</h1>
+
+  </div>
+
+  <!-- counter -->
+  <section class="counters1">
+    <div class="container2">
+      <div>
+        <i class="fab fa-youtube fa-4x"></i>
+        <div class="counter1" data-target="872">872</div>
+        <h3>Subscribers</h3>
+      </div>
+      <div>
+        <i class="fab fa-instagram fa-4x"></i>
+        <div class="counter1" data-target="1310">1310</div>
+        <h3>Followers</h3>
+      </div>
+      <div>
+        <i class="fab fa-facebook fa-4x"></i>
+        <div class="counter1" data-target="1299">1299</div>
+        <h3>Likes</h3>
+      </div>
+      <div>
+        <i class="fab fa-linkedin fa-4x"></i>
+        <div class="counter1" data-target="128">128</div>
+        <h3>Connections</h3>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+
+  <footer>
+    <div class="container1">
+      <div class="footer-content">
+        <div class="items">
+          <a href="#" class="logo">SCOE NSS</a>
+          <p>The National Service Scheme (NSS) is a Central Sector Scheme of Government of India, Ministry of Youth
+            Affairs & Sports.</p>
+          <div class="social">
+            <a href="https://www.facebook.com/NSSSCOE2015"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/scoe_nss/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCRUMSN68Jt4UbhJvqHP0DxA"><i class="fa fa-youtube-play"></i></a>
+            <a href="https://www.linkedin.com/company/nss-sinhgad-college-of-engineering"><i
+                class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="items">
+          <h3> Explore</h3>
+          <div class="row">
+
+          </div>
+          <ul>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./aboutus.html">About</a></li>
+            <li><a href="./events.html">Events</a></li>
+            <li><a href="#">More</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- <div class="items">
+                <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                
+            </ul>
+            </div> -->
+        <div class="items">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">GDPR Compliance</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+      <hr>
+      <!-- <p class="end">SCOE NSS | Technical Team</p> -->
+      <a class="end" href="./techteam.html">SCOE NSS | Technical Team</p>
+    </div>
+  </footer>
+
+
+
+  <div class="intro">
+    <div class="intro-text">
+      <h1 class="hide">
+        <span class="text">Welcome to</span>
+      </h1>
+      <h1 class="hide">
+        <span class="text">Sinhgad College of Engineering</span>
+      </h1>
+      <h1 class="hide">
+        <span class="text">National Service Scheme.</span>
+      </h1>
+    </div>
+  </div>
+  <div class="slider"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"></script>
+
+  <script src="./javafiles/app.js"></script>
+  <!-- <script src="app.js"></script> -->
+
+  <script src="firstpage.js"></script>
+  <!-- <script src="./slider123.js"></script> -->
+
+
+  <!-- Carousel -->
+
+
+
+</body>
+
+</html>

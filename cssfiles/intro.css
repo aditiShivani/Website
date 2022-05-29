@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  font-family: "SF pro Display", sans-serif;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: rgb(0,255,205);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  transform: translateY(160%);
+}
+
+.intro-text {
+  color: rgb(255, 255, 255);
+  font-family: "Heebo", sans-serif;
+  font-size: 4rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+@media screen and (max-width: 1000px)
+{
+  .intro-text {
+    font-size: 3rem;
+  }
+  .hide {
+    margin-bottom: 0.5rem;
+  }
+}
+@media screen and (max-width: 500px)
+{
+  .intro-text {
+    font-size: 2rem;
+  }
+  .hide {
+    margin-bottom: 50px;
+  }
+}

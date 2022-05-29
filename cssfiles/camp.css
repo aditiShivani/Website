@@ -1,0 +1,264 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",sans-serif;
+  
+ 
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.blog-posts{
+  width: min(1200px, 100%);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: pointer;
+  margin-left: 230px;
+  
+}
+
+.post{
+  width: calc(33% - 10px);
+  overflow: hidden;
+}
+
+.post-img{
+  width: 100%;
+  border-radius: 6px;
+  transition: .3s linear;
+}
+
+.post-content{
+  background-color: #000000dd;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 6px;
+  transform: translateY(-60px);
+  transition: .3s linear;
+}
+
+.post-content h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: wheat;
+}
+
+.date{
+  font-size: 15px;
+  font-style: italic;
+  color: #e77f67;
+}
+
+.post:hover .post-img{
+  transform: translateY(20px);
+}
+
+.post:hover .post-content{
+  transform: translateY(-80px);
+}
+
+@media screen and (max-width: 1200px){
+  .blog-posts{
+    justify-content: center;
+  }
+  .post{
+    width: min(600px, 100%);
+  }
+}
+
+
+
+/* buttons */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* *{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+} */
+
+/* body{
+  background: white;
+} */
+
+.cont{
+  /* position: relative; */
+  width: 70%;
+  height: 200px;
+  /* padding: 20px 10px;
+  margin: 15px auto; */
+  text-align: center;
+  margin-left: 230px;
+}
+
+.fe{
+  display: inline-block;
+  width: 30%;
+  height: 50px;
+  float: left;
+  margin-left: 2%;
+  /* margin-bottom: 15%; */
+  margin-top: 15px;
+}
+
+h1{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+h3{
+  color: #00aeff;
+  font-size: 2.5vw;
+  margin-top: 2px;
+}
+
+/* Start Main Button */
+.cont .btn{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  color: #0082d0;
+  font-size: 1vw;
+  font-weight: bold;
+  background: none;
+  border: 5px solid #0082d0;
+  border-radius: 20px;
+  transition: all 0.4s linear;
+}
+
+.btn:hover{ color: rgb(0, 0, 0); }
+
+.btn:before,
+.btn:after{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  background: #fa9b0e7f;
+  transition: all 0.4s linear;
+}
+/* End Main Button */
+
+/* Start Button One */
+.one:before{ top: 0; left: 0; }
+
+.one:hover:before{ width: 100%; }
+/* End Button One */
+
+/* Start Button Tow */
+.tow:before{ top: 0; left: 0; }
+.tow:after{ top: 0; right: 0; }
+
+.tow:hover:before,
+.tow:hover:after{ width: 50%; }
+/* End Button Tow */
+
+/* Start Button Three */
+.three:before{ top: 0; left: 50%; }
+.three:after{ top: 0; right: 50%; }
+
+.three:hover:before,
+.three:hover:after{ width: 50%; }
+/* End Button Three */
+
+/* Start Button Four */
+.four:before,
+.four:after{
+  width: 100%;
+  height: 0;
+  left: 0; }
+
+.four:before{ top: 0; }
+
+.four:hover:before
+{ height: 100%; }
+/* End Button Four */
+
+/* Start Button Five */
+.five:before{
+  width: 100%;
+  height: 0;
+  left: 0;
+  bottom: 0; }
+
+.five:hover:before
+{ height: 100%; }
+/* End Button Five */
+
+/* Start Button Six */
+.six:before,
+.six:after{
+  width: 100%;
+  height: 0;
+  left: 0; }
+
+.six:before{ top: 0; }
+.six:after{ bottom: 0; }
+
+.six:hover:before,
+.six:hover:after
+{ height: 50%; }
+/* End Button Six */
+
+/* Start Button Seven */
+.seven:before,
+.seven:after{
+  width: 100%;
+  height: 0;
+  left: 0; }
+
+.seven:before{ top: 50%; }
+.seven:after{ bottom: 50%; }
+
+.seven:hover:before,
+.seven:hover:after
+{ height: 50%; }
+/* End Button Seven */
+
+/* Start Button Eight */
+.eight:before{ top: 0; right: 0; }
+
+.eight:hover:before{ width: 100%; }
+/* End Button Eight */
+
+/* Start Button Nine */
+.nine:hover{
+  background: #0082d0;
+}
+
+/* titleee */
+
+.title h1 {
+  display: table;
+  white-space: nowrap;
+  border-spacing: 25px 0;
+  color: black;
+  margin-top: 55px;
+  margin-bottom: 25px;
+}
+.title h1:before, h1:after {
+  content: "";
+  display: table-cell;
+  width: 50%;
+  background: -webkit-linear-gradient(#aaa, #aaa) repeat-x left center;
+  background: -moz-linear-gradient(#aaa, #aaa) repeat-x left center;
+  background: -ms-linear-gradient(#aaa, #aaa) repeat-x left center;
+  background: linear-gradient(#aaa, #aaa) repeat-x left center;
+  background-size: 1px 1px;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	/* background: lightskyblue
+		url('https://i.pinimg.com/originals/3c/24/46/3c24462450c2a902bf7e18f3d9aada81.jpg'); */
+	color: #fff;
+	/* Push to bottom
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end; */
+	/* height: 300hv; */
+}
+
+.container2 {
+	
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+header {
+	flex: 1;
+	height: 50%;
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+}
+
+header h1 {
+	font-size: 35px;
+	text-align: center;
+	text-shadow: black;
+	color: rgb(0, 0, 0);
+    
+}
+
+.counters1 {
+	background: rgb(0, 0, 0);
+	background:linear-gradient(to bottom, #33ccff54 0%, #ffffff 100%);
+	
+	color: rgb(0, 0, 0);
+	padding: 40px 20px;
+	/* border-top: 3px rgb(15, 7, 131) solid; */
+	margin-top: 15px;
+}
+
+.counters1 .container2 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	text-align: center;
+}
+
+.counters1 i {
+	color: rgb(12, 0, 187);
+	margin-bottom: 5px;
+}
+
+.counters1 .counter1 {
+	font-size: 45px;
+	margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+	.counters1 .container2 {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.counters1 .container2 > div:nth-of-type(1),
+	.counters1 .container2 > div:nth-of-type(2) {
+		border-bottom: 1px rgb(255, 255, 255) solid;
+		padding-bottom: 20px;
+	}
+}

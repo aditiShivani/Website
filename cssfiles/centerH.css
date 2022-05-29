@@ -1,0 +1,18 @@
+.title h1 {
+  display: table;
+  white-space: nowrap;
+  border-spacing: 25px 0;
+  color: black;
+  margin-top: 55px;
+  margin-bottom: 25px;
+}
+.title h1:before, h1:after {
+  content: "";
+  display: table-cell;
+  width: 50%;
+  background: -webkit-linear-gradient(#aaa, #aaa) repeat-x left center;
+  background: -moz-linear-gradient(#aaa, #aaa) repeat-x left center;
+  background: -ms-linear-gradient(#aaa, #aaa) repeat-x left center;
+  background: linear-gradient(#aaa, #aaa) repeat-x left center;
+  background-size: 1px 1px;
+}
